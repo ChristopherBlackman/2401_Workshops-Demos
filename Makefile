@@ -7,8 +7,8 @@ build:  sortingAlgorithm.o main.o
 main.o: main.c
 	gcc -c main.c
 
-sortingAlgorithm.o : sortingAlgorithm.c
-	gcc -c sortingAlgorithm.c sortingAlgorithm.h
+sortingAlgorithm.o : sortingAlgorithm.c sortingAlgorithm.h
+	gcc -c sortingAlgorithm.c
 
 run: build
 	./main

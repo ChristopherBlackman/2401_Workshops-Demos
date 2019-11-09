@@ -28,6 +28,7 @@ int main(){
 	}
 	printf("\n");
 	
+
 	/*
 	 * Use case with function pointers
 	 */
@@ -41,46 +42,6 @@ int main(){
 	}
 	printf("\n");
 
-	// sorting?
-	bubbleSort1();
-
-	printf("Sorted List : ");
-	for(int i = 0; i < sizeof(b)/sizeof(b[0]);i++){
-		printf("%d,",b[i]);
-	}
-	printf("\n");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/*
-	printf("List : b\n");
-	printf("Un-Sorted List : ");
-	for(int i = 0; i < sizeof(b)/sizeof(b[0]);i++){
-		printf("%d,",b[i]);
-	}
-	printf("\n");
-	*/
-
 	/*
 	 * You see we need the array, 
 	 * 	the array size, 
@@ -89,13 +50,11 @@ int main(){
 	 */
 	bubbleSort2(b,sizeof(b)/sizeof(b[0]),sizeof(b[0]),compare_int);
 
-	/*
 	printf("Sorted List : ");
 	for(int i = 0; i < sizeof(b)/sizeof(b[0]);i++){
 		printf("%d,",b[i]);
 	}
 	printf("\n");
-	*/
 
 }
 

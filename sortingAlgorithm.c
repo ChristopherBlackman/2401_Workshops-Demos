@@ -30,40 +30,6 @@ void bubbleSort(int arr[], int count)
 }
 
 /*
- * function : bubbleSort1
- * purpose  : a more general sorting algorithm using bubble sort
- * input/output : arr
- * input : count
- * input : size
- * input : compare
- */
-void bubbleSort1(){
-	return;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
  * function : bubbleSort2
  * purpose  : a more general sorting algorithm using bubble sort
  * input/output : arr

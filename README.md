@@ -1,4 +1,12 @@
 # demo of function pointers for Workshop 4.2 for class 2401B
-- we explore the use case of function pointers, and have a small demo of them in use
+- We explore the use case of function pointers, and have a small demo of them in use
 
-### Tribute to : https://gist.github.com/ruanchao/3064578 for the base bubble sort code
+# compilation :
+- make build
+
+# run :
+- make run
+
+
+
+Tribute to is given to ruanchao for the bubble sort skeleton code : https://gist.github.com/ruanchao/3064578.
