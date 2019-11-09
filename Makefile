@@ -15,5 +15,4 @@ run: build
 
 clean:
 	rm *.o
-	rm *.gch
 	rm main
